@@ -217,6 +217,27 @@
 		76CA4D8F19F0C5AA006E5B13 /* LEVELSELECTION_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8919F0C5AA006E5B13 /* LEVELSELECTION_4.png */; };
 		76CA4D9019F0C5AA006E5B13 /* LEVELSELECTION_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8A19F0C5AA006E5B13 /* LEVELSELECTION_6.png */; };
 		76CA4D9119F0C5AA006E5B13 /* LEVELSELECTION_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8B19F0C5AA006E5B13 /* LEVELSELECTION_7.png */; };
+		76CA4D9419F0FBB0006E5B13 /* Selectscene.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9319F0FBB0006E5B13 /* Selectscene.lua */; };
+		76CA4D9619F0FBE7006E5B13 /* Shopscene.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9519F0FBE7006E5B13 /* Shopscene.lua */; };
+		76CA4DA319F10E4B006E5B13 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9719F10E4B006E5B13 /* 1.png */; };
+		76CA4DA419F10E4B006E5B13 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9819F10E4B006E5B13 /* 2.png */; };
+		76CA4DA519F10E4B006E5B13 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9919F10E4B006E5B13 /* 3.png */; };
+		76CA4DA619F10E4B006E5B13 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9A19F10E4B006E5B13 /* 4.png */; };
+		76CA4DA719F10E4B006E5B13 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9B19F10E4B006E5B13 /* 5.png */; };
+		76CA4DA819F10E4B006E5B13 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9C19F10E4B006E5B13 /* 6.png */; };
+		76CA4DA919F10E4B006E5B13 /* app.icf in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9D19F10E4B006E5B13 /* app.icf */; };
+		76CA4DAA19F10E4B006E5B13 /* backarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9E19F10E4B006E5B13 /* backarrow.png */; };
+		76CA4DAB19F10E4B006E5B13 /* PreLoadScene.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D9F19F10E4B006E5B13 /* PreLoadScene.lua */; };
+		76CA4DAC19F10E4B006E5B13 /* start_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4DA019F10E4B006E5B13 /* start_bg.png */; };
+		76CA4DAD19F10E4B006E5B13 /* StartScene.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4DA119F10E4B006E5B13 /* StartScene.lua */; };
+		76CA4DAE19F10E4B006E5B13 /* WinScene.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4DA219F10E4B006E5B13 /* WinScene.lua */; };
+		76CA4DB319F10FA0006E5B13 /* musicoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4DAF19F10FA0006E5B13 /* musicoff.png */; };
+		76CA4DB419F10FA0006E5B13 /* musicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4DB019F10FA0006E5B13 /* musicon.png */; };
+		76CA4DB519F10FA0006E5B13 /* play_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4DB119F10FA0006E5B13 /* play_nor.png */; };
+		76CA4DB619F10FA0006E5B13 /* play_pre.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4DB219F10FA0006E5B13 /* play_pre.png */; };
+		76CA4DB919F1129F006E5B13 /* MaingameScene.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4DB719F1129F006E5B13 /* MaingameScene.lua */; };
+		76CA4DBA19F1129F006E5B13 /* progressbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4DB819F1129F006E5B13 /* progressbar.png */; };
+		76CA4DBC19F11619006E5B13 /* SelectLevelScene.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4DBB19F11619006E5B13 /* SelectLevelScene.lua */; };
 		ED35C0C718323498002A0750 /* CCArmatureAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED35C03818323497002A0750 /* CCArmatureAnimation.cpp */; };
 		ED35C0C818323498002A0750 /* CCProcessBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED35C03A18323497002A0750 /* CCProcessBase.cpp */; };
 		ED35C0C918323498002A0750 /* CCTween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED35C03C18323497002A0750 /* CCTween.cpp */; };
@@ -707,6 +728,27 @@
 		76CA4D8919F0C5AA006E5B13 /* LEVELSELECTION_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEVELSELECTION_4.png; sourceTree = "<group>"; };
 		76CA4D8A19F0C5AA006E5B13 /* LEVELSELECTION_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEVELSELECTION_6.png; sourceTree = "<group>"; };
 		76CA4D8B19F0C5AA006E5B13 /* LEVELSELECTION_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEVELSELECTION_7.png; sourceTree = "<group>"; };
+		76CA4D9319F0FBB0006E5B13 /* Selectscene.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Selectscene.lua; sourceTree = "<group>"; };
+		76CA4D9519F0FBE7006E5B13 /* Shopscene.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shopscene.lua; sourceTree = "<group>"; };
+		76CA4D9719F10E4B006E5B13 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		76CA4D9819F10E4B006E5B13 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		76CA4D9919F10E4B006E5B13 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		76CA4D9A19F10E4B006E5B13 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		76CA4D9B19F10E4B006E5B13 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		76CA4D9C19F10E4B006E5B13 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		76CA4D9D19F10E4B006E5B13 /* app.icf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = app.icf; sourceTree = "<group>"; };
+		76CA4D9E19F10E4B006E5B13 /* backarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backarrow.png; sourceTree = "<group>"; };
+		76CA4D9F19F10E4B006E5B13 /* PreLoadScene.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PreLoadScene.lua; sourceTree = "<group>"; };
+		76CA4DA019F10E4B006E5B13 /* start_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_bg.png; sourceTree = "<group>"; };
+		76CA4DA119F10E4B006E5B13 /* StartScene.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StartScene.lua; sourceTree = "<group>"; };
+		76CA4DA219F10E4B006E5B13 /* WinScene.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WinScene.lua; sourceTree = "<group>"; };
+		76CA4DAF19F10FA0006E5B13 /* musicoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicoff.png; sourceTree = "<group>"; };
+		76CA4DB019F10FA0006E5B13 /* musicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicon.png; sourceTree = "<group>"; };
+		76CA4DB119F10FA0006E5B13 /* play_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_nor.png; sourceTree = "<group>"; };
+		76CA4DB219F10FA0006E5B13 /* play_pre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_pre.png; sourceTree = "<group>"; };
+		76CA4DB719F1129F006E5B13 /* MaingameScene.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MaingameScene.lua; sourceTree = "<group>"; };
+		76CA4DB819F1129F006E5B13 /* progressbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progressbar.png; sourceTree = "<group>"; };
+		76CA4DBB19F11619006E5B13 /* SelectLevelScene.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SelectLevelScene.lua; sourceTree = "<group>"; };
 		ED35C03818323497002A0750 /* CCArmatureAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCArmatureAnimation.cpp; sourceTree = "<group>"; };
 		ED35C03918323497002A0750 /* CCArmatureAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCArmatureAnimation.h; sourceTree = "<group>"; };
 		ED35C03A18323497002A0750 /* CCProcessBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCProcessBase.cpp; sourceTree = "<group>"; };
@@ -1885,6 +1927,27 @@
 		F293BC4615EB859D00256477 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				76CA4DB819F1129F006E5B13 /* progressbar.png */,
+				76CA4DAF19F10FA0006E5B13 /* musicoff.png */,
+				76CA4DB019F10FA0006E5B13 /* musicon.png */,
+				76CA4DB119F10FA0006E5B13 /* play_nor.png */,
+				76CA4DB219F10FA0006E5B13 /* play_pre.png */,
+				76CA4D9719F10E4B006E5B13 /* 1.png */,
+				76CA4D9819F10E4B006E5B13 /* 2.png */,
+				76CA4D9919F10E4B006E5B13 /* 3.png */,
+				76CA4D9A19F10E4B006E5B13 /* 4.png */,
+				76CA4D9B19F10E4B006E5B13 /* 5.png */,
+				76CA4D9C19F10E4B006E5B13 /* 6.png */,
+				76CA4DA019F10E4B006E5B13 /* start_bg.png */,
+				76CA4D9D19F10E4B006E5B13 /* app.icf */,
+				76CA4D9E19F10E4B006E5B13 /* backarrow.png */,
+				76CA4D9F19F10E4B006E5B13 /* PreLoadScene.lua */,
+				76CA4DA119F10E4B006E5B13 /* StartScene.lua */,
+				76CA4DA219F10E4B006E5B13 /* WinScene.lua */,
+				76CA4D9319F0FBB0006E5B13 /* Selectscene.lua */,
+				76CA4DBB19F11619006E5B13 /* SelectLevelScene.lua */,
+				76CA4D9519F0FBE7006E5B13 /* Shopscene.lua */,
+				76CA4DB719F1129F006E5B13 /* MaingameScene.lua */,
 				76CA4D8619F0C5AA006E5B13 /* LEVELSELECTION_1.png */,
 				76CA4D8719F0C5AA006E5B13 /* LEVELSELECTION_2.png */,
 				76CA4D8819F0C5AA006E5B13 /* LEVELSELECTION_3.png */,
@@ -1983,34 +2046,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CA4DA519F10E4B006E5B13 /* 3.png in Resources */,
 				15C156981683138E00D239F2 /* Default-568h@2x.png in Resources */,
 				15C156991683138E00D239F2 /* Default.png in Resources */,
 				15C1569A1683138E00D239F2 /* Default@2x.png in Resources */,
+				76CA4DA619F10E4B006E5B13 /* 4.png in Resources */,
+				76CA4DBC19F11619006E5B13 /* SelectLevelScene.lua in Resources */,
+				76CA4D9619F0FBE7006E5B13 /* Shopscene.lua in Resources */,
 				15C1569B1683138E00D239F2 /* Icon-57.png in Resources */,
 				15C1569C1683138E00D239F2 /* Icon-72.png in Resources */,
+				76CA4DAD19F10E4B006E5B13 /* StartScene.lua in Resources */,
 				15C1569D1683138E00D239F2 /* Icon-114.png in Resources */,
 				76CA4D8D19F0C5AA006E5B13 /* LEVELSELECTION_2.png in Resources */,
+				76CA4DB919F1129F006E5B13 /* MaingameScene.lua in Resources */,
 				76CA4D8E19F0C5AA006E5B13 /* LEVELSELECTION_3.png in Resources */,
+				76CA4DA719F10E4B006E5B13 /* 5.png in Resources */,
 				15C1569E1683138E00D239F2 /* Icon-144.png in Resources */,
+				76CA4DAC19F10E4B006E5B13 /* start_bg.png in Resources */,
+				76CA4DA419F10E4B006E5B13 /* 2.png in Resources */,
 				1AC3622F16D47C5C000847F2 /* background.mp3 in Resources */,
 				1AC3623016D47C5C000847F2 /* background.ogg in Resources */,
 				76CA4D9119F0C5AA006E5B13 /* LEVELSELECTION_7.png in Resources */,
+				76CA4DB519F10FA0006E5B13 /* play_nor.png in Resources */,
 				1AC3623116D47C5C000847F2 /* crop.png in Resources */,
+				76CA4DB419F10FA0006E5B13 /* musicon.png in Resources */,
 				1AC3623216D47C5C000847F2 /* dog.png in Resources */,
 				1AC3623316D47C5C000847F2 /* effect1.wav in Resources */,
+				76CA4DAB19F10E4B006E5B13 /* PreLoadScene.lua in Resources */,
 				1AC3623416D47C5C000847F2 /* farm.jpg in Resources */,
 				1AC3623516D47C5C000847F2 /* fonts in Resources */,
+				76CA4DBA19F1129F006E5B13 /* progressbar.png in Resources */,
 				76CA4D8F19F0C5AA006E5B13 /* LEVELSELECTION_4.png in Resources */,
 				1AC3623616D47C5C000847F2 /* hello.lua in Resources */,
+				76CA4D9419F0FBB0006E5B13 /* Selectscene.lua in Resources */,
 				76CA4D9019F0C5AA006E5B13 /* LEVELSELECTION_6.png in Resources */,
 				1AC3623716D47C5C000847F2 /* hello2.lua in Resources */,
+				76CA4DA919F10E4B006E5B13 /* app.icf in Resources */,
+				76CA4DB619F10FA0006E5B13 /* play_pre.png in Resources */,
 				1AC3623816D47C5C000847F2 /* land.png in Resources */,
+				76CA4DAE19F10E4B006E5B13 /* WinScene.lua in Resources */,
 				1AC3623916D47C5C000847F2 /* menu1.png in Resources */,
+				76CA4DB319F10FA0006E5B13 /* musicoff.png in Resources */,
 				1AC3623A16D47C5C000847F2 /* menu2.png in Resources */,
+				76CA4DA819F10E4B006E5B13 /* 6.png in Resources */,
+				76CA4DAA19F10E4B006E5B13 /* backarrow.png in Resources */,
 				46C59AD317641FF300F43DC3 /* AudioEngine.lua in Resources */,
 				76CA4D8519F0C583006E5B13 /* bg.png in Resources */,
 				76CA4D8C19F0C5AA006E5B13 /* LEVELSELECTION_1.png in Resources */,
 				46C59AD417641FF300F43DC3 /* CCBReaderLoad.lua in Resources */,
+				76CA4DA319F10E4B006E5B13 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
