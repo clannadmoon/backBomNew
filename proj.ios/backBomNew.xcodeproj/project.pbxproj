@@ -209,6 +209,14 @@
 		46C1009316BF786A00F74D54 /* tolua_fix.c in Sources */ = {isa = PBXBuildFile; fileRef = 46C1008A16BF786A00F74D54 /* tolua_fix.c */; };
 		46C59AD317641FF300F43DC3 /* AudioEngine.lua in Resources */ = {isa = PBXBuildFile; fileRef = 46C59AD117641FF300F43DC3 /* AudioEngine.lua */; };
 		46C59AD417641FF300F43DC3 /* CCBReaderLoad.lua in Resources */ = {isa = PBXBuildFile; fileRef = 46C59AD217641FF300F43DC3 /* CCBReaderLoad.lua */; };
+		76CA4D8319F0C4FB006E5B13 /* MyMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76CA4D8119F0C4FB006E5B13 /* MyMenu.cpp */; };
+		76CA4D8519F0C583006E5B13 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8419F0C583006E5B13 /* bg.png */; };
+		76CA4D8C19F0C5AA006E5B13 /* LEVELSELECTION_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8619F0C5AA006E5B13 /* LEVELSELECTION_1.png */; };
+		76CA4D8D19F0C5AA006E5B13 /* LEVELSELECTION_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8719F0C5AA006E5B13 /* LEVELSELECTION_2.png */; };
+		76CA4D8E19F0C5AA006E5B13 /* LEVELSELECTION_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8819F0C5AA006E5B13 /* LEVELSELECTION_3.png */; };
+		76CA4D8F19F0C5AA006E5B13 /* LEVELSELECTION_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8919F0C5AA006E5B13 /* LEVELSELECTION_4.png */; };
+		76CA4D9019F0C5AA006E5B13 /* LEVELSELECTION_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8A19F0C5AA006E5B13 /* LEVELSELECTION_6.png */; };
+		76CA4D9119F0C5AA006E5B13 /* LEVELSELECTION_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8B19F0C5AA006E5B13 /* LEVELSELECTION_7.png */; };
 		ED35C0C718323498002A0750 /* CCArmatureAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED35C03818323497002A0750 /* CCArmatureAnimation.cpp */; };
 		ED35C0C818323498002A0750 /* CCProcessBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED35C03A18323497002A0750 /* CCProcessBase.cpp */; };
 		ED35C0C918323498002A0750 /* CCTween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED35C03C18323497002A0750 /* CCTween.cpp */; };
@@ -690,6 +698,15 @@
 		46C1008B16BF786A00F74D54 /* tolua_fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tolua_fix.h; sourceTree = "<group>"; };
 		46C59AD117641FF300F43DC3 /* AudioEngine.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AudioEngine.lua; sourceTree = "<group>"; };
 		46C59AD217641FF300F43DC3 /* CCBReaderLoad.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CCBReaderLoad.lua; sourceTree = "<group>"; };
+		76CA4D8119F0C4FB006E5B13 /* MyMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyMenu.cpp; path = ../Classes/MyMenu.cpp; sourceTree = "<group>"; };
+		76CA4D8219F0C4FB006E5B13 /* MyMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyMenu.h; path = ../Classes/MyMenu.h; sourceTree = "<group>"; };
+		76CA4D8419F0C583006E5B13 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		76CA4D8619F0C5AA006E5B13 /* LEVELSELECTION_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEVELSELECTION_1.png; sourceTree = "<group>"; };
+		76CA4D8719F0C5AA006E5B13 /* LEVELSELECTION_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEVELSELECTION_2.png; sourceTree = "<group>"; };
+		76CA4D8819F0C5AA006E5B13 /* LEVELSELECTION_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEVELSELECTION_3.png; sourceTree = "<group>"; };
+		76CA4D8919F0C5AA006E5B13 /* LEVELSELECTION_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEVELSELECTION_4.png; sourceTree = "<group>"; };
+		76CA4D8A19F0C5AA006E5B13 /* LEVELSELECTION_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEVELSELECTION_6.png; sourceTree = "<group>"; };
+		76CA4D8B19F0C5AA006E5B13 /* LEVELSELECTION_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEVELSELECTION_7.png; sourceTree = "<group>"; };
 		ED35C03818323497002A0750 /* CCArmatureAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCArmatureAnimation.cpp; sourceTree = "<group>"; };
 		ED35C03918323497002A0750 /* CCArmatureAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCArmatureAnimation.h; sourceTree = "<group>"; };
 		ED35C03A18323497002A0750 /* CCProcessBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCProcessBase.cpp; sourceTree = "<group>"; };
@@ -1857,6 +1874,8 @@
 		F293BB7C15EB830F00256477 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				76CA4D8119F0C4FB006E5B13 /* MyMenu.cpp */,
+				76CA4D8219F0C4FB006E5B13 /* MyMenu.h */,
 				F293BB7E15EB831F00256477 /* AppDelegate.cpp */,
 				F293BB7F15EB831F00256477 /* AppDelegate.h */,
 			);
@@ -1866,6 +1885,13 @@
 		F293BC4615EB859D00256477 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				76CA4D8619F0C5AA006E5B13 /* LEVELSELECTION_1.png */,
+				76CA4D8719F0C5AA006E5B13 /* LEVELSELECTION_2.png */,
+				76CA4D8819F0C5AA006E5B13 /* LEVELSELECTION_3.png */,
+				76CA4D8919F0C5AA006E5B13 /* LEVELSELECTION_4.png */,
+				76CA4D8A19F0C5AA006E5B13 /* LEVELSELECTION_6.png */,
+				76CA4D8B19F0C5AA006E5B13 /* LEVELSELECTION_7.png */,
+				76CA4D8419F0C583006E5B13 /* bg.png */,
 				1AC3622316D47C5C000847F2 /* background.mp3 */,
 				1AC3622416D47C5C000847F2 /* background.ogg */,
 				1AC3622516D47C5C000847F2 /* crop.png */,
@@ -1963,20 +1989,27 @@
 				15C1569B1683138E00D239F2 /* Icon-57.png in Resources */,
 				15C1569C1683138E00D239F2 /* Icon-72.png in Resources */,
 				15C1569D1683138E00D239F2 /* Icon-114.png in Resources */,
+				76CA4D8D19F0C5AA006E5B13 /* LEVELSELECTION_2.png in Resources */,
+				76CA4D8E19F0C5AA006E5B13 /* LEVELSELECTION_3.png in Resources */,
 				15C1569E1683138E00D239F2 /* Icon-144.png in Resources */,
 				1AC3622F16D47C5C000847F2 /* background.mp3 in Resources */,
 				1AC3623016D47C5C000847F2 /* background.ogg in Resources */,
+				76CA4D9119F0C5AA006E5B13 /* LEVELSELECTION_7.png in Resources */,
 				1AC3623116D47C5C000847F2 /* crop.png in Resources */,
 				1AC3623216D47C5C000847F2 /* dog.png in Resources */,
 				1AC3623316D47C5C000847F2 /* effect1.wav in Resources */,
 				1AC3623416D47C5C000847F2 /* farm.jpg in Resources */,
 				1AC3623516D47C5C000847F2 /* fonts in Resources */,
+				76CA4D8F19F0C5AA006E5B13 /* LEVELSELECTION_4.png in Resources */,
 				1AC3623616D47C5C000847F2 /* hello.lua in Resources */,
+				76CA4D9019F0C5AA006E5B13 /* LEVELSELECTION_6.png in Resources */,
 				1AC3623716D47C5C000847F2 /* hello2.lua in Resources */,
 				1AC3623816D47C5C000847F2 /* land.png in Resources */,
 				1AC3623916D47C5C000847F2 /* menu1.png in Resources */,
 				1AC3623A16D47C5C000847F2 /* menu2.png in Resources */,
 				46C59AD317641FF300F43DC3 /* AudioEngine.lua in Resources */,
+				76CA4D8519F0C583006E5B13 /* bg.png in Resources */,
+				76CA4D8C19F0C5AA006E5B13 /* LEVELSELECTION_1.png in Resources */,
 				46C59AD417641FF300F43DC3 /* CCBReaderLoad.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2198,6 +2231,7 @@
 				ED35C0D818323498002A0750 /* CCTweenFunction.cpp in Sources */,
 				1A40E7EC1727C47E006D4861 /* SkeletonData.cpp in Sources */,
 				1A40E7ED1727C47E006D4861 /* SkeletonJson.cpp in Sources */,
+				76CA4D8319F0C4FB006E5B13 /* MyMenu.cpp in Sources */,
 				1A40E7EE1727C47E006D4861 /* Skin.cpp in Sources */,
 				1A40E7EF1727C47E006D4861 /* Slot.cpp in Sources */,
 				ED35C0CB18323498002A0750 /* CCBone.cpp in Sources */,
