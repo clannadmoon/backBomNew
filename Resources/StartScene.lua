@@ -1,5 +1,5 @@
 
-
+require "Load" 
 function createStartScene()
 	isMusicOn = true 
 	local startscene = CCScene:create()
@@ -18,13 +18,6 @@ function createStartScene()
           require "Selectscene"
           CCDirector:sharedDirector():replaceScene(createSelectscene())
          
-
-          -- require "SelectScene"
-          -- CCDirector:sharedDirector():replaceScene(createSelectScene())
-
-          -- require "ShopScene"
-          -- CCDirector:sharedDirector():replaceScene(CCTransitionFadeTR:create(0.1, createShopScene()))
-          -- CCDirector:sharedDirector():replaceScene(createShopScene())
     end 
 
     local function menuCallMusicOff()
@@ -62,6 +55,21 @@ function createStartScene()
     startlayer:addChild(menu,1)
     startlayer:addChild(bgsprit)
     startscene:addChild(startlayer)
+
+
+    function callback( )
+        print("erwertwert")
+    end
+
+    require "Menu"
+    local sb = Menu:new()
+    sb:addMenu("play_nor.png" ,"play_pre.png", "musicon.png", callback, ccp(100,130), 1, startlayer, 3)
+
+    require "ToggleMenu"
+    local sa = ToggleMenu:new()
+    sa:addToggleMenu("musicon.png","musicoff.png",ccp(200, 240),startlayer)
+    print(sa.on)
+
     CCDirector:sharedDirector():pushScene(CCTransitionFade:create(0.5, startscene, ccc3(0,255,255)))	
     return startscene
 end

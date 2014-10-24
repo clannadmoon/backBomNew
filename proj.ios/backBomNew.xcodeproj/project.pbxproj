@@ -209,6 +209,12 @@
 		46C1009316BF786A00F74D54 /* tolua_fix.c in Sources */ = {isa = PBXBuildFile; fileRef = 46C1008A16BF786A00F74D54 /* tolua_fix.c */; };
 		46C59AD317641FF300F43DC3 /* AudioEngine.lua in Resources */ = {isa = PBXBuildFile; fileRef = 46C59AD117641FF300F43DC3 /* AudioEngine.lua */; };
 		46C59AD417641FF300F43DC3 /* CCBReaderLoad.lua in Resources */ = {isa = PBXBuildFile; fileRef = 46C59AD217641FF300F43DC3 /* CCBReaderLoad.lua */; };
+		767359C019F893FD003D92E9 /* Progress.lua in Resources */ = {isa = PBXBuildFile; fileRef = 767359BF19F893FD003D92E9 /* Progress.lua */; };
+		767359C219F89B85003D92E9 /* Toggle.lua in Resources */ = {isa = PBXBuildFile; fileRef = 767359C119F89B85003D92E9 /* Toggle.lua */; };
+		76A85FBC19F7881300E59990 /* Shop.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76A85FBB19F7881300E59990 /* Shop.lua */; };
+		76A85FC019F7AFA700E59990 /* ToggleMenu.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76A85FBF19F7AFA700E59990 /* ToggleMenu.lua */; };
+		76A85FC219F7D14300E59990 /* Menu.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76A85FC119F7D14300E59990 /* Menu.lua */; };
+		76A85FC419F7D55100E59990 /* scrollView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 76A85FC319F7D55100E59990 /* scrollView.lua */; };
 		76CA4D8319F0C4FB006E5B13 /* MyMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76CA4D8119F0C4FB006E5B13 /* MyMenu.cpp */; };
 		76CA4D8519F0C583006E5B13 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8419F0C583006E5B13 /* bg.png */; };
 		76CA4D8C19F0C5AA006E5B13 /* LEVELSELECTION_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CA4D8619F0C5AA006E5B13 /* LEVELSELECTION_1.png */; };
@@ -719,6 +725,12 @@
 		46C1008B16BF786A00F74D54 /* tolua_fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tolua_fix.h; sourceTree = "<group>"; };
 		46C59AD117641FF300F43DC3 /* AudioEngine.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AudioEngine.lua; sourceTree = "<group>"; };
 		46C59AD217641FF300F43DC3 /* CCBReaderLoad.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CCBReaderLoad.lua; sourceTree = "<group>"; };
+		767359BF19F893FD003D92E9 /* Progress.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Progress.lua; sourceTree = "<group>"; };
+		767359C119F89B85003D92E9 /* Toggle.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Toggle.lua; sourceTree = "<group>"; };
+		76A85FBB19F7881300E59990 /* Shop.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shop.lua; sourceTree = "<group>"; };
+		76A85FBF19F7AFA700E59990 /* ToggleMenu.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToggleMenu.lua; sourceTree = "<group>"; };
+		76A85FC119F7D14300E59990 /* Menu.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Menu.lua; sourceTree = "<group>"; };
+		76A85FC319F7D55100E59990 /* scrollView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scrollView.lua; sourceTree = "<group>"; };
 		76CA4D8119F0C4FB006E5B13 /* MyMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyMenu.cpp; path = ../Classes/MyMenu.cpp; sourceTree = "<group>"; };
 		76CA4D8219F0C4FB006E5B13 /* MyMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyMenu.h; path = ../Classes/MyMenu.h; sourceTree = "<group>"; };
 		76CA4D8419F0C583006E5B13 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
@@ -1927,7 +1939,6 @@
 		F293BC4615EB859D00256477 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				76CA4DB819F1129F006E5B13 /* progressbar.png */,
 				76CA4DAF19F10FA0006E5B13 /* musicoff.png */,
 				76CA4DB019F10FA0006E5B13 /* musicon.png */,
 				76CA4DB119F10FA0006E5B13 /* play_nor.png */,
@@ -1941,11 +1952,18 @@
 				76CA4DA019F10E4B006E5B13 /* start_bg.png */,
 				76CA4D9D19F10E4B006E5B13 /* app.icf */,
 				76CA4D9E19F10E4B006E5B13 /* backarrow.png */,
+				76CA4DB819F1129F006E5B13 /* progressbar.png */,
+				767359BF19F893FD003D92E9 /* Progress.lua */,
 				76CA4D9F19F10E4B006E5B13 /* PreLoadScene.lua */,
+				76A85FBF19F7AFA700E59990 /* ToggleMenu.lua */,
+				76A85FC119F7D14300E59990 /* Menu.lua */,
 				76CA4DA119F10E4B006E5B13 /* StartScene.lua */,
 				76CA4DA219F10E4B006E5B13 /* WinScene.lua */,
+				76A85FC319F7D55100E59990 /* scrollView.lua */,
 				76CA4D9319F0FBB0006E5B13 /* Selectscene.lua */,
 				76CA4DBB19F11619006E5B13 /* SelectLevelScene.lua */,
+				767359C119F89B85003D92E9 /* Toggle.lua */,
+				76A85FBB19F7881300E59990 /* Shop.lua */,
 				76CA4D9519F0FBE7006E5B13 /* Shopscene.lua */,
 				76CA4DB719F1129F006E5B13 /* MaingameScene.lua */,
 				76CA4D8619F0C5AA006E5B13 /* LEVELSELECTION_1.png */,
@@ -2051,17 +2069,21 @@
 				15C156991683138E00D239F2 /* Default.png in Resources */,
 				15C1569A1683138E00D239F2 /* Default@2x.png in Resources */,
 				76CA4DA619F10E4B006E5B13 /* 4.png in Resources */,
+				76A85FC019F7AFA700E59990 /* ToggleMenu.lua in Resources */,
 				76CA4DBC19F11619006E5B13 /* SelectLevelScene.lua in Resources */,
 				76CA4D9619F0FBE7006E5B13 /* Shopscene.lua in Resources */,
 				15C1569B1683138E00D239F2 /* Icon-57.png in Resources */,
 				15C1569C1683138E00D239F2 /* Icon-72.png in Resources */,
 				76CA4DAD19F10E4B006E5B13 /* StartScene.lua in Resources */,
+				76A85FC419F7D55100E59990 /* scrollView.lua in Resources */,
 				15C1569D1683138E00D239F2 /* Icon-114.png in Resources */,
 				76CA4D8D19F0C5AA006E5B13 /* LEVELSELECTION_2.png in Resources */,
 				76CA4DB919F1129F006E5B13 /* MaingameScene.lua in Resources */,
 				76CA4D8E19F0C5AA006E5B13 /* LEVELSELECTION_3.png in Resources */,
 				76CA4DA719F10E4B006E5B13 /* 5.png in Resources */,
 				15C1569E1683138E00D239F2 /* Icon-144.png in Resources */,
+				76A85FC219F7D14300E59990 /* Menu.lua in Resources */,
+				767359C219F89B85003D92E9 /* Toggle.lua in Resources */,
 				76CA4DAC19F10E4B006E5B13 /* start_bg.png in Resources */,
 				76CA4DA419F10E4B006E5B13 /* 2.png in Resources */,
 				1AC3622F16D47C5C000847F2 /* background.mp3 in Resources */,
@@ -2081,10 +2103,12 @@
 				76CA4D9419F0FBB0006E5B13 /* Selectscene.lua in Resources */,
 				76CA4D9019F0C5AA006E5B13 /* LEVELSELECTION_6.png in Resources */,
 				1AC3623716D47C5C000847F2 /* hello2.lua in Resources */,
+				76A85FBC19F7881300E59990 /* Shop.lua in Resources */,
 				76CA4DA919F10E4B006E5B13 /* app.icf in Resources */,
 				76CA4DB619F10FA0006E5B13 /* play_pre.png in Resources */,
 				1AC3623816D47C5C000847F2 /* land.png in Resources */,
 				76CA4DAE19F10E4B006E5B13 /* WinScene.lua in Resources */,
+				767359C019F893FD003D92E9 /* Progress.lua in Resources */,
 				1AC3623916D47C5C000847F2 /* menu1.png in Resources */,
 				76CA4DB319F10FA0006E5B13 /* musicoff.png in Resources */,
 				1AC3623A16D47C5C000847F2 /* menu2.png in Resources */,

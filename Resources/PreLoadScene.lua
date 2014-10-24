@@ -24,26 +24,21 @@ local visibleSize = CCDirector:sharedDirector():getVisibleSize()
 local bgsprit = CCSprite:create("start_bg.png")
 bgsprit:setPosition(ccp(visibleSize.width/2, visibleSize.height/2))
 
- --加载进度条
-	
-local progress = CCProgressTimer:create(CCSprite:create("progressbar.png"))
-	  progress:setPosition(ccp(240, 160))
-
-	 progress:setType(kCCProgressTimerTypeBar)
-	 progress:setMidpoint(ccp(0, 0.5))
-	 progress:setScale(0.5)
-
-
-	 local progressto = CCProgressTo:create(1, 100)
-	 progress:runAction(progressto)
-
+ 
 local PreLoadScene = CCScene:create()
 local layer = CCLayer:create();
 PreLoadScene:addChild(layer)
 layer:addChild(bgsprit)
-layer:addChild(progress)
+
 cclog("dfjsklkldsfjkdfklskdfs")
 print("456789")
+
+--加载进度条
+require "Progress"
+local sa = classProgress:new()
+local spt = sa:addProgress("progressbar.png", ccp(1, 0), 0.0, ccp(50, 50), ccp(0,0), layer)
+local prog = CCProgressTo:create(1, 100)
+spt:runAction(prog)
 
 CCDirector:sharedDirector():runWithScene(PreLoadScene)
 

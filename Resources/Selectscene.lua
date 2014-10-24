@@ -39,10 +39,11 @@
             local str = "LEVELSELECTION_" ..(i+1) ..".png"
             local menuItem = CCMenuItemImage:create(str,str)
             menuItem:registerScriptTapHandler(chapterSelect)
-            menuItem:setAnchorPoint(ccp(0, 0))
-            menu:addChild(menuItem,i+1000,i+1000)
+            --menuItem:setAnchorPoint(ccp(0, 0))
+            menuItem:setPosition(ccp(60+140*i, 150))
+            menu:addChild(menuItem,0,i+1000)
         end
-        menu:alignItemsHorizontallyWithPadding(20)
+        --menu:alignItemsHorizontallyWithPadding(20)
         menu:setAnchorPoint(ccp(0,0))
         menu:setPosition(ccp(0, 0))
 
@@ -71,7 +72,9 @@
     local function createMenu( )
 
         local function toShop( )
-            print("Enter Shop ")
+            print("Enter Shop")
+            require "Shop"
+            CCDirector:sharedDirector():replaceScene(createShopScene())
         end
 
         local function toBack( )
@@ -94,6 +97,7 @@
 
         return shopMenu
     end
+
     
     --add scrollView
     local scrollView = createScrollView()
@@ -103,6 +107,69 @@
     local shopMenu = createMenu()
     Selectscene:addChild(shopMenu)
 
+
+
+
+    local oldlayX 
+    local layX
+
+    --  scrollView自调整
+    local function adjuestScrollView()
+
+        local offset = layX%140 - layX%1
+            local t = -(layX/140 - (layX/140)%1)
+            local time = (offset/400)
+        if layX < oldlayX then
+            
+            local adjustPos = ccp(-140*(t),0)
+            print("adjust  %f   %f",adjustPos.x,adjustPos.y )
+            scrollView:setContentOffsetInDuration(adjustPos, time)
+        end 
+        if layX > oldlayX then
+            --local offset = layX%140 - layX%1
+            --local t = -(layX/140 - (layX/140)%1)
+            --local time = -(offset/400)
+            local adjustPos = ccp(-140*t,0)
+            print("adjust  %f   %f",adjustPos.x,adjustPos.y )
+            scrollView:setContentOffsetInDuration(adjustPos, time)
+        end 
+        
+    end
+
+    local function onTouchBegan(x,y)
+        
+        oldlayX = scrollView:getContentOffset().x
+        print("onTouchBegan: %f     %f   %f ",x ,y ,oldlayX)
+        return true
+    end
+    local function onTouchMoved(x,y)
+           print("onTouchMoved: %f     %f  ",x ,y)
+           
+    end
+    local function onTouchEnded()
+         
+          layX = scrollView:getContentOffset().x
+           print("onTouchEnded:%f     %f  %f ",x ,y,layX)
+           adjuestScrollView()
+
+    end
+    local function onTouch(eventType,x,y)
+           print("onTouch:%f     %f  ",x ,y)
+
+
+        if eventType == "began" then
+            return onTouchBegan(x,y)
+                elseif eventType == "moved" then
+                    return onTouchMoved(x,y)
+        else
+          return onTouchEnded(x,y)  
+      end
+    end
+
+
+
+    Selectscene:registerScriptTouchHandler(onTouch)
+     Selectscene:setTouchEnabled(true)
    scene:addChild(Selectscene)
     return scene
 end
