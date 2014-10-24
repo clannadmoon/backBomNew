@@ -49,9 +49,9 @@ CCDirector:sharedDirector():runWithScene(PreLoadScene)
 -- layer:runAction(seq)
 
 
-require "WinScene"
-local time = CCDelayTime:create(1)
-local func = CCCallFunc:create(creatWinScene)
+require "StartScene"
+local time = CCDelayTime:create(3)
+local func = CCCallFunc:create(createStartScene)
 local seq = CCSequence:createWithTwoActions(time, func)
 PreLoadScene:runAction(seq)
 

@@ -40,7 +40,7 @@
             local menuItem = CCMenuItemImage:create(str,str)
             menuItem:registerScriptTapHandler(chapterSelect)
             --menuItem:setAnchorPoint(ccp(0, 0))
-            menuItem:setPosition(ccp(60+140*i, 150))
+            menuItem:setPosition(ccp(60+140*i, 125))
             menu:addChild(menuItem,0,i+1000)
         end
         --menu:alignItemsHorizontallyWithPadding(20)
@@ -52,17 +52,17 @@
         continerLayer:addChild(menu)
         continerLayer:setAnchorPoint(ccp(0,0))
         continerLayer:setPosition(ccp(0, 0))
-        continerLayer:setContentSize(CCSizeMake(540, 300))
+        continerLayer:setContentSize(CCSizeMake(540, 250))
 
         --填充scrollView
         scrollView:setContainer(continerLayer)
         scrollView:setContentOffset(ccp(0,0))
         --scrollView:setAnchorPoint(ccp(0,0))
-        scrollView:setViewSize(CCSizeMake(260, 300))
+        scrollView:setViewSize(CCSizeMake(260, 250))
         scrollView:setDirection(kCCScrollViewDirectionHorizontal)
 
         --设置scrollView的位置
-        scrollView:setPosition(ccp(100, 40))
+        scrollView:setPosition(ccp(110, 30))
     
         return scrollView;
     end
@@ -87,7 +87,8 @@
         local shopMenu = CCMenu:create()
         shopMenu:setPosition(ccp(0, 0))
         local shopItem = CCMenuItemImage:create("menu1.png","menu1.png")
-        local backItem = CCMenuItemImage:create("menu1.png", "menu1.png")
+        local backItem = CCMenuItemImage:create("backarrow.png", "backarrow.png")
+        backItem:setScale(0.6)
         shopItem:setPosition(400,280)
         backItem:setPosition(50,280)
         shopItem:registerScriptTapHandler(toShop)
